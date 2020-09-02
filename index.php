@@ -1,1 +1,15 @@
-<h2>本日無練習程式碼</h2>
+<h2>資料庫練習</h2>
+<hr>
+<?php
+    $servername = "localhost";
+    $username = "root";
+    $password = "smile123";
+
+    $conn = new mysqli($servername, $username, $password);
+    if ($conn->connect_error) {
+        die("Connection failed!" . $conn->connect_error);
+    } else {
+        echo ("Connection successful!");
+    }
+    $conn->close();
+?>
