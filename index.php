@@ -1,4 +1,4 @@
-<h2>資料庫練習</h2>
+<h2>資料庫練習(0903)</h2>
 <hr>
 <?php
     $servername = "localhost";
